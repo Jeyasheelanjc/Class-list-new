@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container h4 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0;
+}
+img{
+    width: 200px;
+    /* padding: 20px 0; */
+}
+.buttonContainer{
+    text-align: center;
+    padding: 20px 0;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+button {
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+.button-add {
+    background-color: violet;
+    color: white;
+    border: 3px solid white;padding: 10px 30px;
+    /* width: 120px;
+    height: 120px;
+    border-radius: 100px; */
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.button-remove {
+    background-color: royalblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+    
+}
+.second{
+     background-color: red;
+     /* color: white; */
+     /* border-radius: 40px;  */
+     width: 200px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.first{
+    background-color: rgb(90, 167, 205);
+    /* color: white; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    margin: 5px 0;
+}
+.con{
+    background-color: tomato;
+    color: black;
+}.myStyle {
+   background: url(./4991413.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   height: 250px;
+   object-fit: cover;
+  }
+  .newStyle {
+   
+    background: url(./ronnie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    object-fit: cover;
+  }
+ul{
+    line-height: 2;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+center{
+    padding: 10px 0;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+@media screen and (max-width:576px) {
+    button {
+        /* margin: 0; */
+    }
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        /* margin: 20px 0; */
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+        
+    }
+}
